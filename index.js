@@ -127,7 +127,11 @@ module.exports = {
          "error"
       ],
       "comma-spacing": ["error"],
-      "space-infix-ops": "error"
+      "space-infix-ops": "error",
+      "template-curly-spacing": [
+         "error",
+         "never"
+      ]
    },
    parserOptions: {
       ecmaVersion: 2017
