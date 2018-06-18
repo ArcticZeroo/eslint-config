@@ -126,7 +126,8 @@ module.exports = {
       "keyword-spacing": [
          "error"
       ],
-      "comma-spacing": ["error"]
+      "comma-spacing": ["error"],
+      "space-infix-ops": "error"
    },
    parserOptions: {
       ecmaVersion: 2017
