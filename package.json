@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arcticzeroo/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "ArcticZeroo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arcticzeroo/eslint-config/issues"
+  },
+  "homepage": "https://github.com/arcticzeroo/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": ">=4"
+  }
+}
