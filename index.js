@@ -122,7 +122,11 @@ module.exports = {
          }
       ],
       "no-undef": "warn",
-      "space-before-blocks": ["error", "always"]
+      "space-before-blocks": ["error", "always"],
+      "keyword-spacing": [
+         "error"
+      ],
+      "comma-spacing": ["error"]
    },
    parserOptions: {
       ecmaVersion: 2017
