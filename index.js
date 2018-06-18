@@ -131,7 +131,11 @@ module.exports = {
       "template-curly-spacing": [
          "error",
          "never"
-      ]
+      ],
+      "arrow-parens": [
+         "error",
+         "as-needed"
+      ],
    },
    parserOptions: {
       ecmaVersion: 2017
