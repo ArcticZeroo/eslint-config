@@ -141,6 +141,13 @@ module.exports = {
          {
             "ignoreEOLComments": true
          }
+      ],
+      "prefer-destructuring": [
+         "error",
+         {
+            "array": true,
+            "object": true
+         }
       ]
    },
    parserOptions: {
