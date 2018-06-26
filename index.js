@@ -136,6 +136,12 @@ module.exports = {
          "error",
          "as-needed"
       ],
+      "no-multi-spaces": [
+         "error",
+         {
+            "ignoreEOLComments": true
+         }
+      ]
    },
    parserOptions: {
       ecmaVersion: 2018
