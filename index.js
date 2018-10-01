@@ -5,7 +5,7 @@ module.exports = {
       mocha: true
    },
    globals: {
-      frozor: true
+      frozor: false
    },
    extends: "eslint:recommended",
    rules: {
