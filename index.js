@@ -70,26 +70,11 @@ module.exports = {
       "handle-callback-err": [
          "error"
       ],
-      "camelcase": [
-         // Warning so that we can make
-         // slack api calls without it
-         // getting mad at us
-         "warn"
-      ],
       "one-var": [
          "error",
          {
             "initialized": "never",
             "uninitialized": "consecutive"
-         }
-      ],
-      "require-jsdoc": [
-         "warn",
-         {
-            "require": {
-               "FunctionDeclaration": true,
-               "MethodDefinition": true
-            }
          }
       ],
       "generator-star-spacing": [
@@ -151,6 +136,6 @@ module.exports = {
       ]
    },
    parserOptions: {
-      ecmaVersion: 2018
+      ecmaVersion: 13
    }
 };
